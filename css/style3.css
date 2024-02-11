@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(120deg,#2980b9, #8e44ad); */
+  background: linear-gradient(120deg, #40513b, #9dc08b);
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+/* navbar */
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  /* background-color: rgba(34, 49, 52, 0.9); */
+  background: transparent;
+  /* background: linear-gradient(120deg,#40513B, #9DC08B); */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin: 15px 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  color: #40513b;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+/* navbar */
+
+/* BG landpage */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://aplik.org/wp-content/uploads/2020/11/Mengenal-Kesehatan-dan-Keselamatan-Kerja.jpg);
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: 65px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  /* background-repeat: no-repeat; */
+  color: #40513b;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 15px white;
+}
+
+.top-wrapper p {
+  opacity: 2.8;
+  margin-bottom: 3px;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px white;
+}
+/* BG landpage */
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #40513b;
+  margin-top: 20px;
+  padding: 25px 50px;
+  position: absolute;
+}
+
+.footer-left {
+  float: left;
+  /* margin: 10px 0px; */
+}
+
+.footer-left p {
+  color: #edf1d6;
+}
+.footer-right {
+  float: right;
+}
+
+.footer-right li {
+  list-style-type: none;
+  color: #edf1d6;
+  letter-spacing: 1px;
+  margin: 0 0 8px 0;
+}
+
+.footer-right a {
+  /* padding: 5px 0px; */
+  color: #edf1d6;
+  transition: all 0.5s;
+}
+
+.footer-right a:hover {
+  color: #9dc08b;
+}
+
+.logo-footer {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.logo-list {
+  width: 15px;
+  margin: 0px 0px;
+}
+/* Footer */

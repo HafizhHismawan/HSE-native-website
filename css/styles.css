@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+body {
+  background: #edf1d6;
+}
+
+/* button */
+button[type="submit"] {
+  /* width: 100%; */
+  height: 50px;
+  border: 1px solid;
+  /* background: #2691d9; */
+  background: #40513b;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+button[type="submit"]:hover {
+  transform: scale(0.99);
+  background-color: #9dc08b;
+  transition: 0.5s;
+}
+/*  button */
+
+navbar {
+  position: fixed;
+  width: 100%;
+  background: #609966;
+  color: #fff;
+  height: 84px;
+  z-index: 10;
+}
+
+navbar a {
+  display: flex;
+  align-items: center;
+  float: right;
+  color: #fff;
+  padding: 30px;
+}
+
+sidebar {
+  position: fixed;
+  width: 280px;
+  height: 756px;
+  background: #9dc08b;
+  font-weight: bold;
+  z-index: 15;
+}
+
+sidebar .logo {
+  font-size: 22px;
+  width: 280px;
+  height: 84px;
+  background: #40513b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+sidebar .menu {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+sidebar .menu ul {
+  border-top: black solid;
+  width: 210px;
+  border-width: 1px;
+  margin-bottom: 30px;
+  font-size: 11px;
+}
+
+sidebar .menu ul li {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+sidebar .menu ul li a {
+  color: black;
+}
+
+sidebar .menu ul li a:hover {
+  color: white;
+}
+
+main {
+  padding-top: 115px;
+  padding-left: 320px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+main h2 {
+  padding-left: 10px;
+}
+
+main button {
+  width: 200px;
+  height: 60px;
+  background: #40513b;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-weight: 350;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+main table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-collapse: collapse;
+  width: 95%;
+  padding: 5px 5px 5px 5px;
+}
+
+main table thead {
+  background: #9dc08b;
+}
+
+main table th {
+  border: 1px solid #edf1d6;
+}
+
+main table td {
+  padding: 10px;
+  border: 1px solid #edf1d6;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}
